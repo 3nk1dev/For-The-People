@@ -65,5 +65,11 @@ uniq: filters duplicate, adjacent lines of text.
 grep: searches for a text pattern and outputs it.
 sed : searches for a text pattern, modifies it, and outputs it.
 
+CUSTOM BASH PROFILE
+nano ~/.bash_profile
+$ source ~/.bash_profile
+~/.bash_profile
+echo "Bueno"
 alias p="pwd"
 alias ll="ls -la"
+export USER="FART"
