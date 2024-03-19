@@ -80,3 +80,8 @@ export PS1=">> "
 echo HOME
 echo PATH
 env
+
+##Windows
+###CMD PROMPT
+shutdown -s -t 7200 //shut down the computer in two hours
+
