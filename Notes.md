@@ -64,3 +64,6 @@ sort: sorts lines of text alphabetically.
 uniq: filters duplicate, adjacent lines of text.
 grep: searches for a text pattern and outputs it.
 sed : searches for a text pattern, modifies it, and outputs it.
+
+alias p="pwd"
+alias ll="ls -la"
