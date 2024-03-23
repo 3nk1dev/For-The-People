@@ -21,8 +21,16 @@ print(customer_data_final)
 
 ###GRADEBOOK
 
+####List Insert
+front_display_list = ["Mango", "Filet Mignon", "Chocolate Milk"]
+print(front_display_list)
+
+# Your code below: 
+front_display_list.insert(0, "Pineapple")
 ####.pop remove from list and hold in other element
 
-##Range
+##Range 
+range_five_three = range(5, 15, 3)
+range_five_three = range(Start, End before This Number, Count Interval)
 
 len() = 
