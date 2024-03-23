@@ -3,7 +3,7 @@
 ## PYTHON Gradebook 
 ### NEsted List Remove/Append
 #### Your code below:
-'''python3
+'''python
 first_names = ["Ainsley", "Ben", "Chani", "Depak"]
 
 preferred_size = ["Small", "Large", "Medium"]
