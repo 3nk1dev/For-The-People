@@ -20,7 +20,7 @@ customer_data_final = customer_data + [["Amit", "Large", True], ["Karim", "X-Lar
 
 print(customer_data_final)
 
-###GRADEBOOK
+### GRADEBOOK
 
 ####List Insert
 front_display_list = ["Mango", "Filet Mignon", "Chocolate Milk"]
@@ -31,7 +31,7 @@ front_display_list.insert(0, "Pineapple")
 ####.pop remove from list and hold in other element
 
 ##Consecutive Lists
-# Your code below: 
+##### Your code below: 
 
 number_list = range(9)
 
@@ -41,7 +41,7 @@ print(list(zero_to_seven))
 
 
 
-##Range 
+## Range 
 range_five_three = range(5, 15, 3)
 range_five_three = range(Start, End before This Number, Count Interval)
 # Your code below: 
