@@ -13,5 +13,3 @@ for webp_image in $webp_images; do
   cwebp "$webp_image" -o "$filename.jpg"
 
 done
-
-
