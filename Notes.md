@@ -1,7 +1,7 @@
 My heading:
 
 
-
+git fetch
 
 
 
@@ -119,3 +119,5 @@ customer_data_final = customer_data + [["Amit", "Large", True], ["Karim", "X-Lar
 print(customer_data_final)
 
 ###GRADEBOOK
+
+##.pop remove from list and hold in other element
