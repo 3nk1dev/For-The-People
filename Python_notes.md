@@ -1,6 +1,7 @@
 
-##PYTHON Gradebook 
-###NEsted List Remove/Append
+# Python
+## PYTHON Gradebook 
+### NEsted List Remove/Append
 #### Your code below:
 
 first_names = ["Ainsley", "Ben", "Chani", "Depak"]
