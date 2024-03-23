@@ -1,5 +1,11 @@
 My heading:
-
+TTTTT    A    X   X  EEEEE RRRR
+  T     A A   X   X  E     R    R
+  T    A   A    X    E     R    R
+  T    AAAAA    X    EEE   RRRR
+  T    A   A    X    E     R R
+  T    A   A  X   X  E     R  R
+  T    A   A  X   X  EEEEE R   R
 
 git fetch
 
@@ -39,13 +45,7 @@ git merge origin/master: Merges origin/master into your local branch.
 git push origin <branch_name>: Pushes a local branch to the origin remote.
 Git projects are usually managed on Github, a website that hosts Git projects for millions of users. With Github you can access your projects from anywhere in the world by using the ba
 
-TTTTT    A    X   X  EEEEE RRRR
-  T     A A   X   X  E     R    R
-  T    A   A    X    E     R    R
-  T    AAAAA    X    EEE   RRRR
-  T    A   A    X    E     R R
-  T    A   A  X   X  E     R  R
-  T    A   A  X   X  EEEEE R   R
+
 
   Congratulations! You learned how to use the command line to view and manipulate the filesystem. What can we generalize so far?
 
