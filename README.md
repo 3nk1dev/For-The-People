@@ -10,5 +10,5 @@ TTTTT    A    X   X  EEEEE RRRR
 ```
 <picture>
 
-<img alt="Enki Strike" src="https://github.com/3nk1dev/Notes/blob/main/3nk1dev.jpg">
+<img alt="Enki Strike" size=medium src="https://github.com/3nk1dev/Notes/blob/main/3nk1dev.jpg">
 </picture>
