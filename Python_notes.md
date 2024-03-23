@@ -3,7 +3,7 @@
 ## PYTHON Gradebook 
 ### NEsted List Remove/Append
 #### Your code below:
-
+'''python3
 first_names = ["Ainsley", "Ben", "Chani", "Depak"]
 
 preferred_size = ["Small", "Large", "Medium"]
@@ -19,7 +19,7 @@ customer_data[1].remove(False)
 customer_data_final = customer_data + [["Amit", "Large", True], ["Karim", "X-Large", False]]
 
 print(customer_data_final)
-
+'''
 ### GRADEBOOK
 
 #### List Insert
@@ -45,7 +45,7 @@ print(list(zero_to_seven))
 
 
 ## Range 
-'''
+'''python3
 range_five_three = range(5, 15, 3)
 range_five_three = range(Start, End before This Number, Count Interval)
 '''
