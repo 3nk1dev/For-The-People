@@ -22,15 +22,15 @@ print(customer_data_final)
 
 ### GRADEBOOK
 
-####List Insert
+#### List Insert
 front_display_list = ["Mango", "Filet Mignon", "Chocolate Milk"]
 print(front_display_list)
 
 # Your code below: 
 front_display_list.insert(0, "Pineapple")
-####.pop remove from list and hold in other element
+#### .pop remove from list and hold in other element
 
-##Consecutive Lists
+## Consecutive Lists
 ##### Your code below: 
 
 number_list = range(9)
@@ -50,7 +50,7 @@ range_five_three = range(5, 15, 3)
 
 range_diff_five = range(0, 40, 5)
 
-##len() = 
+## len() = 
 
 long_list = [1, 5, 6, 7, -23, 69.5, True, "very", "long", "list", "that", "keeps", "going.", "Let's", "practice", "getting", "the", "length"]
 
