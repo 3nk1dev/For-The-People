@@ -26,7 +26,7 @@
                                                                                                                                                
                                                                                                                                                
         
-```                                
+                           
 <picture>
 
 <img alt="Enki Strike" size=small src="https://github.com/3nk1dev/Notes/blob/main/3nk1dev.jpg">
