@@ -72,3 +72,31 @@ print(big_range_length)
 
 
 ```
+
+## Slicing Lists 1
+clients = ["John", "Jane", "Mike", "Sarah", "David", "Emily"]
+
+# Slicing the list to get the first three clients
+first_three_clients = clients[:3]
+print(first_three_clients)
+
+# Slicing the list to get the last two clients
+last_two_clients = clients[-2:]
+print(last_two_clients)
+
+# Slicing the list to get the clients from index 2 to 4
+middle_clients = clients[2:5]
+print(middle_clients)
+
+## Slicing Lists 2
+# Slicing the list to get all elements except the first and last
+middle_elements = clients[1:-1]
+print(middle_elements)
+
+# Slicing the list to get every second element starting from index 1
+every_second_element = clients[1::2]
+print(every_second_element)
+
+# Slicing the list to get every third element starting from the end
+every_third_element_from_end = clients[::-3]
+print(every_third_element_from_end)
