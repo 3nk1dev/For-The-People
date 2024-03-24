@@ -74,29 +74,75 @@ print(big_range_length)
 ```
 
 ## Slicing Lists 1
+```py
 clients = ["John", "Jane", "Mike", "Sarah", "David", "Emily"]
-
-# Slicing the list to get the first three clients
+```
+### Slicing the list to get the first three clients
+```py
 first_three_clients = clients[:3]
 print(first_three_clients)
-
-# Slicing the list to get the last two clients
+```
+### Slicing the list to get the last two clients
+```py
 last_two_clients = clients[-2:]
 print(last_two_clients)
-
-# Slicing the list to get the clients from index 2 to 4
+```
+### Slicing the list to get the clients from index 2 to 4
+```py
 middle_clients = clients[2:5]
 print(middle_clients)
-
+```
 ## Slicing Lists 2
-# Slicing the list to get all elements except the first and last
+### Slicing the list to get all elements except the first and last
+```py
 middle_elements = clients[1:-1]
 print(middle_elements)
-
-# Slicing the list to get every second element starting from index 1
+```
+### Slicing the list to get every second element starting from index 1
+```py
 every_second_element = clients[1::2]
 print(every_second_element)
-
-# Slicing the list to get every third element starting from the end
+```
+### Slicing the list to get every third element starting from the end
+```py
 every_third_element_from_end = clients[::-3]
 print(every_third_element_from_end)
+```
+
+## .count 
+ ```py
+ votes = ["Jake", "Jake", "Laurie", "Laurie", "Laurie", "Jake", "Jake", "Jake", "Laurie", "Cassie", "Cassie", "Jake", "Jake", "Cassie", "Laurie", "Cassie", "Jake", "Jake", "Cassie", "Laurie"]
+
+# Your code below: 
+
+jake_votes = votes.count("Jake")
+print(jake_votes)
+laurie_votes = votes.count("Laurie")
+cassie_votes = votes.count("Cassie")
+
+print(laurie_votes)
+print(cassie_votes)
+```
+ 
+## .sort
+MODIFIES LIST DIRECTLY NOT ASSIGNED TO VARIABLE
+
+```py
+# Checkpoint 1 & 2
+addresses = ["221 B Baker St.", "42 Wallaby Way", "12 Grimmauld Place", "742 Evergreen Terrace", "1600 Pennsylvania Ave", "10 Downing St."]
+
+
+# Checkpoint 3
+names = ["Ron", "Hermione", "Harry", "Albus", "Sirius"]
+names.sort()
+
+addresses.sort()
+print(addresses)
+
+
+# Checkpoint 4 & 5
+cities = ["London", "Paris", "Rome", "Los Angeles", "New York"]
+sorted_cities = cities.sort(reverse=True)
+
+print(sorted_cities)
+```
