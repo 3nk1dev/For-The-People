@@ -77,6 +77,13 @@ print(big_range_length)
 ```py
 clients = ["John", "Jane", "Mike", "Sarah", "David", "Emily"]
 ```
+
+### Slicing the list to get the first clients
+```py
+first_clients = clients[1]
+print(first_clients)
+```
+
 ### Slicing the list to get the first three clients
 ```py
 first_three_clients = clients[:3]
@@ -146,3 +153,6 @@ sorted_cities = cities.sort(reverse=True)
 
 print(sorted_cities)
 ```
+
+## sorted()
+Generates a new list
