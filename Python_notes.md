@@ -156,3 +156,37 @@ print(sorted_cities)
 
 ## sorted()
 Generates a new list
+
+## Loops
+### Example 1: Iterate over a list
+```py 
+fruits = ["apple", "banana", "cherry"]
+for fruit in fruits:
+    print(fruit)
+```
+
+### Example 2: Iterate over a range of numbers
+```py
+ for i in range(1, 6):
+    print(i)
+```
+### My example:
+```py
+board_games = ["Settlers of Catan", "Carcassone", "Power Grid", "Agricola", "Scrabble"]
+
+sport_games = ["football", "hockey", "baseball", "cricket"]
+
+for game in board_games:
+  print(game)
+
+for sport in sport_games:
+  print(sport)
+  ```
+## Loops Using Range
+```py
+promise = "I will finish the python loops module!"
+
+for temp in range(5):
+  print(promise)
+```
+## Loops using While
