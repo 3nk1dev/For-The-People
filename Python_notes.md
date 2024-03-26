@@ -349,3 +349,54 @@ print("False Alarm, the weather changed! There is a thunderstorm approaching. Ca
 weather_check()
 ```
 
+## Function Parameters
+```py
+# Your code below:
+
+
+
+def generate_trip_instructions(location):
+  print("Looks like you are planning a trip to visit " + location)
+  print("You can use the public subway system to get to " + location)
+
+generate_trip_instructions("Grand Central Station")
+```
+
+## Multiple Parameters
+```py
+# Write your code below: 
+
+def calculate_expenses(plane_ticket_price, car_rental_rate, hotel_rate, trip_time):
+  car_rental_total = car_rental_rate * trip_time
+  hotel_total = hotel_rate * trip_time - 10
+  trip_total = car_rental_total + hotel_total + plane_ticket_price
+
+  return trip_total
+# Step 5: call your function
+calculate_expenses(200, 100, 100, 5)
+```
+##Types of Arguments
+
+In Python, there are 3 different types of arguments we can give a function.
+
+Positional arguments: arguments that can be called by their position in the function definition.
+
+Keyword arguments: arguments that can be called by their name.
+
+Default arguments: arguments that are given default values.
+
+## trip Planner
+```py
+# Write your code below:
+
+def trip_planner(first_destination = "Iceland", second_destination = "India"
+, final_destination = "Germany"):
+  ##final_destination = "Codecademy HQ"
+  print("Here is what your trip will look like!")
+  print("First, we will stop in " + first_destination + ", then " + second_destination + ", and lastly " + final_destination)
+
+trip_planner("Brooklyn", "Queens")
+
+```
+
+## Built-in Functions vs User Defined Functions
