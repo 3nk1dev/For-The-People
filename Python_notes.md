@@ -158,13 +158,14 @@ print(sorted_cities)
 Generates a new list
 
 ## Loops
+
+
 ### Example 1: Iterate over a list
 ```py 
 fruits = ["apple", "banana", "cherry"]
 for fruit in fruits:
     print(fruit)
 ```
-
 ### Example 2: Iterate over a range of numbers
 ```py
  for i in range(1, 6):
@@ -189,4 +190,26 @@ promise = "I will finish the python loops module!"
 for temp in range(5):
   print(promise)
 ```
+
+
+
 ## Loops using While
+```py
+
+#print("While Loop ended")
+
+# Your code below: 
+countdown = 10
+while countdown >= 0: print(countdown); countdown -= 1 
+print("We have liftoff!")
+```
+## While Loops: List
+```py
+python_topics = ["variables", "control flow", "loops", "modules", "classes"]
+
+#Your code below: 
+
+length = len(python_topics)
+index = 0
+while index < length: print("I am learning about " + python_topics[index]); index += 1
+```
