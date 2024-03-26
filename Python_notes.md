@@ -272,3 +272,22 @@ can_ride_coaster = [height for height in heights if height > 161]
 
 print(can_ride_coaster)
 ```
+
+## Loops Review
+
+```py
+single_digits = range(0, 10, 1)
+squares = []
+
+
+for single_digit in single_digits:
+  print(single_digit); squares.append(single_digit**2)
+
+print(squares)
+
+cubes = []
+for single_digit in single_digits:
+  print(single_digit); cubes.append(single_digit**3)
+
+print(cubes)
+```
