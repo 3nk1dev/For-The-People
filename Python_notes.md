@@ -213,3 +213,43 @@ length = len(python_topics)
 index = 0
 while index < length: print("I am learning about " + python_topics[index]); index += 1
 ```
+## Loop Control Break 
+```py
+dog_breeds_available_for_adoption = ["french_bulldog", "dalmatian", "shihtzu", "poodle", "collie"]
+dog_breed_I_want = "dalmatian"
+
+for dog_breed in dog_breeds_available_for_adoption:
+  print(dog_breed)
+  if dog_breed == dog_breed_I_want: print("They have the dog I want!"); break
+```
+
+## Loop Control Continue
+```py
+ages = [12, 38, 34, 26, 21, 19, 67, 41, 17]
+
+for age in ages:
+  if age < 21:
+    continue
+  print(age)
+```
+
+## Nested Loops
+```py
+# Loop through each sublist EXAMPLE
+for team in project_teams:
+  # Loop elements in each sublist
+  for student in team:
+    print(student)
+```
+```py
+#MY CODE
+sales_data = [[12, 17, 22], [2, 10, 3], [5, 12, 13]]
+scoops_sold = 0
+
+for location in sales_data:
+  for sales in location:
+    scoops_sold += sales
+print(scoops_sold)
+
+```
+
