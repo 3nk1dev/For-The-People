@@ -253,3 +253,22 @@ print(scoops_sold)
 
 ```
 
+## List comprehensions
+```py
+sales_data = [[12, 17, 22], [2, 10, 3], [5, 12, 13]]
+scoops_sold = 0
+
+for location in sales_data:
+  for sales in location:
+    scoops_sold += sales
+print(scoops_sold)
+
+```
+
+## List comprehensions: conditionals
+```py
+heights = [161, 164, 156, 144, 158, 170, 163, 163, 157]
+can_ride_coaster = [height for height in heights if height > 161]
+
+print(can_ride_coaster)
+```
