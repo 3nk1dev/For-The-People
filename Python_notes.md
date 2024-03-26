@@ -419,3 +419,31 @@ print(rounded_price)
 ```
 
 ## Variable Access
+
+```py
+# This function will print a hardcoded count of how many locations we have.
+favorite_locations = "Paris, Norway, Iceland"
+def print_count_locations():
+  print("There are 3 locations")
+    
+# This function will print the favorite locations
+def show_favorite_locations():
+  print("Your favorite locations are: " + favorite_locations)
+
+print_count_locations()
+show_favorite_locations()
+```
+## Multiple Returns
+```py
+def top_tourist_locations_italy():
+  first = "Rome"
+  second = "Venice"
+  third = "Florence"
+  return first, second, third
+
+most_popular1, most_popular2, most_popular3 = top_tourist_locations_italy()
+print(most_popular1)
+print(most_popular2)
+print(most_popular3)
+
+```
