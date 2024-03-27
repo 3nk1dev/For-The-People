@@ -517,3 +517,18 @@ def get_work(mass, acceleration, distance):
 train_work = get_work(train_mass, train_acceleration, train_distance)
 print("The GE train does " + str(train_work) + " Joules of work over Y meters.")
 ```
+
+## Concatenating Strings
+```py
+first_name = "Julie"
+last_name = "Blevins"
+
+def account_generator(first_name, last_name):
+  return str(first_name[:3] + last_name[:3])
+
+new_account = account_generator(first_name, last_name)
+
+```
+
+## More string slicing
+```py
