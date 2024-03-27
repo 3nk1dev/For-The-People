@@ -447,3 +447,73 @@ print(most_popular2)
 print(most_popular3)
 
 ```
+```py
+# Write your code below:
+
+def trip_planner_welcome(name): 
+  print("Welcome to tripplanner v1.0 " + name)
+
+trip_planner_welcome(" <YOUR NAME HERE> ")
+
+def estimated_time_rounded(estimated_time):
+  rounded_time = round(estimated_time)
+  return rounded_time
+
+estimate = estimated_time_rounded(2.43)
+
+def destination_setup(origin, destination, estimated_time, mode_of_transport="Car"):
+  print("Your trip starts off in " + origin)
+  print("And you are traveling to " + destination)
+  print("You will be traveling by " + mode_of_transport)
+  print("It will take approximately " + str(estimated_time) + " hours")
+
+
+destination_setup(" <PICK AN ORIGIN> ", "<PICK A DESTINATION > ", estimate, "Car")
+```
+## Practice Project Physics Class Demonstration
+```py
+# Uncomment this when you reach the "Use the Force" section
+train_mass = 22680
+train_acceleration = 10
+train_distance = 100
+bomb_mass = 1
+c = 3*10**8
+
+
+# Write your code below: 
+
+
+def f_to_c(f_temp):
+  c_temp = (f_temp - 32) * 5/9
+  return c_temp
+
+f100_in_celsius = f_to_c(100)
+print(f100_in_celsius)
+
+def c_to_f(c_temp):
+  f_temp = (c_temp * 9/5) + 32
+  return f_temp
+
+c0_in_fahrenheit = c_to_f(0)
+print(c0_in_fahrenheit)
+
+def get_force(mass, acceleration):
+  return mass * acceleration
+
+train_force = get_force(train_mass, train_acceleration)
+
+print("The GE train supplies " + str(train_force) + " Newtons of force.")
+
+def get_energy (mass, c):
+  return mass * c ** 2
+
+bomb_energy = get_energy(bomb_mass, c)
+print("A 1kg bomb supplies " + str(bomb_energy) + " Joules.")
+
+def get_work(mass, acceleration, distance):
+  force = get_force(mass, acceleration)
+  return force * distance
+
+train_work = get_work(train_mass, train_acceleration, train_distance)
+print("The GE train does " + str(train_work) + " Joules of work over Y meters.")
+```
