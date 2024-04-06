@@ -541,8 +541,29 @@ temp_password = password_generator(first_name, last_name)
 ```
 
 ## iterating through strings
-### def get_length(word):
+```py
+ def get_length(word):
   counter = 0
   for letter in word:
     counter += 1
   return counter
+```
+
+## Strings and Conditionals (Part One)
+```py
+def letter_check(word, letter):
+  if letter in word:
+    return True
+  else:
+    return False
+
+print(letter_check("strawberry", "a"))
+```py
+def common_letters(string_one, string_two):
+    common = []
+    for letter in string_one:
+        if letter in string_two and letter not in common:
+            common.append(letter)
+    return common
+
+
