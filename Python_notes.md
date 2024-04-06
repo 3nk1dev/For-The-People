@@ -539,3 +539,10 @@ def password_generator(first_name, last_name):
   return first_name[-3:] + last_name[-3:]
 temp_password = password_generator(first_name, last_name)
 ```
+
+## iterating through strings
+### def get_length(word):
+  counter = 0
+  for letter in word:
+    counter += 1
+  return counter
