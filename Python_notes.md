@@ -556,14 +556,70 @@ def letter_check(word, letter):
     return True
   else:
     return False
+```
 
-print(letter_check("strawberry", "a"))
+## Strings and Conditionals (Part Two)
 ```py
-def common_letters(string_one, string_two):
-    common = []
-    for letter in string_one:
-        if letter in string_two and letter not in common:
-            common.append(letter)
-    return common
+def contains(big_string, little_string):
+  if little_string in big_string:
+    return True
+  else:
+    return False
 
+print(contains("watermelon", "melon"))
+def common_letters(string_one, string_two):
+  common = []
+  for letter in string_one:
+    if letter in string_two and letter not in common:
+      common.append(letter)
+  return common
+```
+
+##
+```py
+def username_generator(first_name, last_name):
+  if len(first_name) < 3 or len(last_name) < 4:
+    username = first_name + last_name
+  else:
+    username = first_name[:3] + last_name[:4]
+  return username
+def password_generator(user_name):
+  password = ""
+  for i in range(len(user_name)):
+    password += user_name[i-1]
+
+
+## Review 
+```py 
+def username_generator(first_name, last_name):
+  if len(first_name) < 3 or len(last_name) < 4:
+    username = first_name + last_name
+  else:
+    username = first_name[:3] + last_name[:4]
+  return username
+  
+def password_generator(user_name):
+    password = ""
+ 
+    for i in range(len(user_name)):
+      password += user_name[i - 1]
+    return password
+
+    print(password_generator("apple"))
+  ```
+
+## Formatting Methods
+
+##### There are three string methods that can change the casing of a string. These are .lower(), .upper(), and .title().
+
+##### Splitting Strings
+###### .split()
+
+```py
+line_one = "The sky has given over"
+
+line_one_words = line_one.split()
+
+print(line_one_words)
+```
 
