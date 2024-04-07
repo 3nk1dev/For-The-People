@@ -612,7 +612,7 @@ def password_generator(user_name):
 
 ##### There are three string methods that can change the casing of a string. These are .lower(), .upper(), and .title().
 
-##### Splitting Strings
+## Splitting Strings
 ###### .split()
 
 ```py
@@ -623,7 +623,7 @@ line_one_words = line_one.split()
 print(line_one_words)
 ```
 
-##### Splitting Strings 2
+### Splitting Strings 2
 
 ```py
 authors = "Audre Lorde,Gabriela Mistral,Jean Toomer,An Qi,Walt Whitman,Shel Silverstein,Carmen Boullosa,Kamala Suraiyya,Langston Hughes,Adrienne Rich,Nikki Giovanni"
@@ -635,3 +635,28 @@ print(author_names)
 author_last_names = author_names[0:]
 author_last_names = [name.split()[-1] for name in author_names]
 ```
+
+### Splitting Strings 3
+
+##### We can also split strings using escape sequences. Escape sequences are used to indicate that we want to split by something in a string that is not necessarily a character. The two escape sequences we will cover here are
+
+\n Newline
+\t Horizontal Tab
+```py
+smooth_chorus = \
+"""And if you said, "This life ain't good enough."
+I would give my world to lift you up
+I could change my life to better suit your mood
+Because you're so smooth"""
+
+chorus_lines = smooth_chorus.split('\n')
+
+print(chorus_lines)
+```
+
+## Joining Strings
+### .join()
+```py
+'delimiter'.join(list_you_want_to_join)
+```
+
