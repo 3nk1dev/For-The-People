@@ -656,7 +656,14 @@ print(chorus_lines)
 
 ## Joining Strings
 ### .join()
+
+#### Remember the ' '
 ```py
 'delimiter'.join(list_you_want_to_join)
 ```
 
+```py
+reapers_line_one_words = ["Black", "reapers", "with", "the", "sound", "of", "steel", "on", "stones"]
+
+reapers_line_one = ' '.join(reapers_line_one_words)
+```
