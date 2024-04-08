@@ -706,3 +706,11 @@ print('smooth'.find('t'))
 ```
 ## .format()
 #### Python also provides a handy string method for including variables in strings. This method is .format(). .format() takes variables as an argument and includes them in the string that it is run on. You include {} marks as placeholders for where those variables will be imported.
+
+```py
+def poem_title_card(title, poet):
+  poem_desc = "The poem \"{}\" is written by {}.".format(title, poet)
+  return poem_desc
+
+print(poem_title_card("I Hear America Singing","Walt Whitman"))
+```
