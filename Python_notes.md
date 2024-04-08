@@ -667,3 +667,42 @@ reapers_line_one_words = ["Black", "reapers", "with", "the", "sound", "of", "ste
 
 reapers_line_one = ' '.join(reapers_line_one_words)
 ```
+
+## Joining Strings 2
+```py
+winter_trees_lines = ['All the complicated details', 'of the attiring and', 'the disattiring are completed!', 'A liquid moon', 'moves gently among', 'the long branches.', 'Thus having prepared their buds', 'against a sure winter', 'the wise trees', 'stand sleeping in the cold.']
+
+winter_trees_full = '\n'.join(winter_trees_lines)
+
+print(winter_trees_full)
+```
+## .strip()
+#### Cleaning Data
+EX
+```py
+featuring = "           rob thomas                 "
+print(featuring.strip())
+# => 'rob thomas'
+```
+## Replace
+```py
+string_name.replace(substring_being_replaced, new_substring)
+
+#Great! Let’s put it in context and look at an example.
+
+with_spaces = "You got the kind of loving that can be so smooth"
+with_underscores = with_spaces.replace(' ', '_')
+print(with_underscores)
+# 'You_got_the_kind_of_loving_that_can_be_so_smooth'
+```
+
+## .find()
+
+#### Another interesting string method is .find(). .find() takes a string as an argument and searching the string it was run on for that string. It then returns the first index value where that string is located.
+
+```py
+print('smooth'.find('t'))
+# => '4'
+```
+## .format()
+#### Python also provides a handy string method for including variables in strings. This method is .format(). .format() takes variables as an argument and includes them in the string that it is run on. You include {} marks as placeholders for where those variables will be imported.
