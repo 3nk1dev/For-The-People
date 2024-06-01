@@ -879,6 +879,7 @@ green&white;,;09/15/17,   Gail Phelps   ;,;$30.52
 #------------------------------------------------
 # Start coding below!
 
+
 daily_sales_replaced = daily_sales.replace(';,;', '_')
 
 daily_transactions = daily_sales_replaced.split(',')
@@ -930,4 +931,9 @@ for color in colors:
   count = color_count(color)
   print("Today, {} threads of {} color were sold.".format(count, color))
 ```
+
+## Modules Python Introduction
+
+```py
+
 
