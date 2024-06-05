@@ -1042,3 +1042,6 @@ spread["future"] = tarot.pop(10)
 for key, value in spread.items():
     print("Your " + key + " is the " + str(value) + " card.")
 ```
+
+## Scrabble
+```py
