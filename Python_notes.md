@@ -1043,5 +1043,10 @@ for key, value in spread.items():
     print("Your " + key + " is the " + str(value) + " card.")
 ```
 
-## Scrabble
+## Reading A File
 ```py
+with open('welcome.txt') as text_file:
+  text_data = text_file.read()
+
+print(text_data)
+```
