@@ -1051,4 +1051,34 @@ with open('welcome.txt') as text_file:
 print(text_data)
 ```
 
-##
+## Iterating Through Lines
+
+IMPORTANT: DIFFERENTIATE BETWEEN .readlines() and .readline() 
+
+```py
+with open('how_many_lines.txt') as lines_doc:
+   for line in lines_doc.readlines():
+    print(line)
+```
+
+## Reading A Line
+
+ONE LINE AT A TIME
+
+```py
+with open('just_the_first.txt') as first_line_doc:
+  first_line = first_line_doc.readline()
+  second_line = first_line_doc.readline()
+  print(first_line)
+```
+
+## Writing A File
+
+w argument writes a new file
+```py
+with open('bad_bands.txt', 'w') as bad_bands_doc:
+  bad_bands_doc.write("Nickelback!")
+```
+
+## Appending to a file
+
