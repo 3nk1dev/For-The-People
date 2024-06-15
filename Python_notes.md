@@ -1232,3 +1232,17 @@ with open('new_passwords.csv', 'w') as new_passwords_obj:
 
 shutil.move('new_passwords.csv', 'passwords.csv')
 ```
+
+## Types
+
+How to check python variable type
+
+Python equips us with many different ways to store data. A float is a different kind of number from an int, and we store different data in a list than we do in a dict. These are known as different types. We can check the type of a Python variable using the type() function.
+
+```py
+print(type(5))
+
+my_dict = {}
+
+print(type(my_dict))
+```
