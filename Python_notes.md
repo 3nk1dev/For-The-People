@@ -1268,3 +1268,30 @@ facade_1_type = (type(facade_1))
 
 print(facade_1_type)
 ```
+
+## Methods
+
+Methods are functions that are defined as part of a class. The first argument in a method is always the object that is calling the method. Convention recommends that we name this first argument self. Methods always have at least this one argument.
+
+We define methods similarly to functions, except that they are indented to be part of the class.
+
+```py
+class Rules:
+  def washing_brushes(self):
+    return "Point bristles towards the basin while washing your brushes."
+```
+
+## Methods with Arguments
+
+```py
+class Circle:
+  pi = 3.14
+  def area(self, radius):
+    return self.pi * radius ** 2
+
+circle = Circle()
+
+pizza_area = circle.area(12 / 2)
+teaching_table_area = circle.area(36 / 2)
+round_room_area = circle.area(11460 / 2)
+```
